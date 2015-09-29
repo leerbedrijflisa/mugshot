@@ -1,0 +1,25 @@
+﻿body {
+    font-family: Verdana;
+    font-size: 10pt;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+tr:hover {
+    background-color: #ddf;
+    cursor: pointer;
+}
+
+tr:first-child {
+    background-color: #06c;
+    color: white;
+    cursor: default;
+}
+
+td, th {
+    padding: 5px;
+    text-align: left;
+}
