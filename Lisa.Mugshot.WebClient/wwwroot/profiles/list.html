@@ -1,0 +1,15 @@
+﻿<template>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Crime</th>
+            <th>Reward</th>
+        </tr>
+
+        <tr repeat.for="profile of profiles">
+            <td>${profile.name}</td>
+            <td>${profile.crime}</td>
+            <td>$${profile.reward}</td>
+        </tr>
+    </table>
+</template>
